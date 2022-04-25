@@ -3,6 +3,7 @@ image:
   tag: "1.0" 
 app:
   content: "hello world"
+  message: "your personal message here..."
   port: 8080
 ingress:
     enabled: true
