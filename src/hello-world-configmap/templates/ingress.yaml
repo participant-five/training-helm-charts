@@ -16,9 +16,9 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: hello-world
+            name: hello-world-configmap
             port:
-                number: 3000
+              number: 3000
   tls:
   - secretName: hello-world.part5.xyz-tls
     hosts:
