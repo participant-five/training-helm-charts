@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  tag: 1.0
+  tag: "1.0" 
 app:
   content: "hello world"
   port: 8080
